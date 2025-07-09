@@ -1,0 +1,60 @@
+- name: Neuro-Information Technology Group, Otto-von-Guericke-University Magdeburg
+  #role: Neuro-Information Technology | AI based Deception Detection # Will appear next to name
+  image: /orakel/assets/theme/images/logo_FEIT.png  # Can be external link
+  description: > # Can be Markdown
+    The Neuro-Information Technology (NIT) group is located technically at the intersection of research fields multisensory information gathering and processing, human-machine interaction (HMI) and information perception. This involves at first the use of modern methods of information technology and pattern recognition for signal, image and video-based industrial and medical applications.
+  #orcid: 0000-0000-0000-0000
+  #researchgate: researchgate_username
+  #googlescholar: googlescholar_username
+  #bluesky: bluesky_username.bsky.social
+  #mastodon: https://mastodon.social/@mastodon_username
+  #twitter: twitter_username
+  #linkedin: linkedin_username
+  #github: github_username
+  #email: name@example.com
+
+#- name: 'Coorporation Partners: Faculty of Economics and Management, Otto-von-Guericke-University Magdeburg'
+#  role: Experimental economy | data aquisition
+#  #image:  https://www.cd.ovgu.de/cd_media/CD_OVGU/   #wird gerade überarbeitet https://www.cd.ovgu.de/
+#  description: >
+#    The subject of medical psychology is intended to sensitize future doctors' ability to perceive mental processes and influence them for the benefit of the patient. The subject areas of psychology as a whole are of great importance for explaining the development and treatment of somatic and mental illnesses. The main subjects of medical psychology include the doctor-patient relationship, dealing with the seriously ill and dying, coping with illness, cooperative relationships and conflicts in teamwork or the excessive demands placed on doctors. According to the licensing regulations, the subject of medical psychology is part of the first section of the medical examination (Physikum). © 2025 Medizinische Psychologie, Uni Ulm
+
+#- name: Cooperation Parters
+
+- name: 'Department of Psychiatry and Psychotherapy, Medical Faculty University Hospital Magdeburg'
+  #role:  Experimental economy | Data Aquisition
+  #
+  image:  /orakel/assets/theme/images/OVGU+MED_logo_web_blau.jpg  #  https://www.cd.ovgu.de/Fakult%C3%A4ten/Wirtschaftswissenschaft.html
+  description: >    
+    The Department of Psychiatry and Psychotherapy, University Hospital Magdeburg, offers innovative diagnostics and therapy for a wide range of mental illnesses. We consistently adhere to current international standards and the latest scientific findings to provide top-tier medical care for our patients. Our spectrum of treatments includes psychopharmacological and psychotherapeutic approaches as well as various brain stimulation methods, particularly for difficult-to-treat conditions. To establish comprehensive care, our integrative approach combines inpatient, day clinic, and outpatient treatment.
+
+
+
+# Project team members listed below will appear on the /team page
+
+#- name: Philip J. Fry
+#  role: Delivery boy # Will appear next to name
+#  image: assets/theme/images/fry_ethan-hoover-311143-unsplash.jpg # Can be external link
+#  description: > # Can be Markdown
+#    Protagonist, from the 20th century. Many times great-uncle to Professor Hubert Farnsworth.
+#  orcid: 0000-0000-0000-0000
+#  researchgate: researchgate_username
+#  googlescholar: googlescholar_username
+#  bluesky: bluesky_username.bsky.social
+#  mastodon: https://mastodon.social/@mastodon_username
+#  twitter: twitter_username
+#  linkedin: linkedin_username
+#  github: github_username
+#  email: name@example.com
+
+#- name: Turanga Leela
+#  role: Captain
+#  description: >
+#    Mutant cyclops. Leela is spaceship captain, pilot, and head of all 
+#    aviation services on board the [Planet Express Ship](https://en.wikipedia.org/wiki/Planet_Express_Ship). 
+
+#- name: Professor Hubert J. Farnsworth
+#  role: CEO & Owner
+#  image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
+#  description: >
+#    Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).

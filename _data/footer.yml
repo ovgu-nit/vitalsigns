@@ -1,0 +1,25 @@
+# Footer content is organized in columns, with the first one reserved for social icons (defined in _config.yml).
+# You can also add a small print license statement at the bottom.
+
+# Columns (the more you add, the narrower they will be)
+columns:
+  - description:
+    links:
+    - text: "apl. Prof. Dr.-Ing. habil. Ayoub Al-Hamadi"
+      href: https://www.ovgu.de/Al_Hamadi.html
+      new_window: true
+    - text: "Prof. Dr. med. Johann Steiner"
+      href: https://kpsy.med.ovgu.de/Forschung/Steiner.html
+      new_window: true
+
+  - description: > # E.g. funding acknowledgement. Can be Markdown
+    links:
+    - text: "This project is supported by the European Regional Development Fund (ERDF) as part of project ORAKEL (grant no. ZS/2023/12/182322), funded by the European Union and the state of Saxony-Anhalt."
+      href: https://forschung-sachsen-anhalt.de/project/bessere-rueckfall-vorhersage-bei-depressiven-27762
+      new_window: true
+
+# Small print license statement to add at the bottom of the footer. Can be Markdown
+# Will be prefixed by "© {{ site.author }}" if defined in _config.yml
+license: >
+  Content on this site is licensed under a [CC BY 4.0 License](http://creativecommons.org/licenses/by/4.0/).
+  \| Theme: [Petridish](https://github.com/peterdesmet/petridish)
