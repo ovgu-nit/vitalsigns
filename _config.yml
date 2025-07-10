@@ -1,8 +1,8 @@
 # SITE SETTINGS
-title: ORAKEL                      # Title in top navigation bar (navbar) and <head>
+title: VITAL SIGNS ESTIMATION                      # Title in top navigation bar (navbar) and <head>
 author: NIT OVGU                    # Used for copyright statement in footer
-repository: ovgu-nit/orakel
-baseurl: /orakel                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
+repository: ovgu-nit/vitalsigns
+baseurl: /vitalsigns                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
                                         # A baseurl affects internal links, see http://peterdesmet.com/petridish/markdown/#links
 
@@ -27,7 +27,7 @@ colors:
   footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
 font_serif: False                        # Font type for page content: serif (default) or slightly smaller sans-serif
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
-logo: /assets/theme/images/depression_icon.png # Logo in navbar, will be displayed with 30px height
+logo: /assets/theme/images/vitalsigns_icon.png # Logo in navbar, will be displayed with 30px height
  
 # BUILD SETTINGS
 markdown: kramdown

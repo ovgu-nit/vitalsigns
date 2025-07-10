@@ -8,14 +8,11 @@ columns:
     - text: "apl. Prof. Dr.-Ing. habil. Ayoub Al-Hamadi"
       href: https://www.ovgu.de/Al_Hamadi.html
       new_window: true
-    - text: "Prof. Dr. med. Johann Steiner"
-      href: https://kpsy.med.ovgu.de/Forschung/Steiner.html
-      new_window: true
 
   - description: > # E.g. funding acknowledgement. Can be Markdown
     links:
-    - text: "This project is supported by the European Regional Development Fund (ERDF) as part of project ORAKEL (grant no. ZS/2023/12/182322), funded by the European Union and the state of Saxony-Anhalt."
-      href: https://forschung-sachsen-anhalt.de/project/bessere-rueckfall-vorhersage-bei-depressiven-27762
+    - text: "This project is supported by the German Research Foundation (DFG) under grants AL 638/14-1 (project no. 502438143)."
+      href: https://gepris.dfg.de/gepris/projekt/502438143
       new_window: true
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown

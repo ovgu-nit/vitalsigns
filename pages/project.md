@@ -1,10 +1,10 @@
 ---
-title: ORAKEL 
-description: "Better prediction of relapses in depressive disorders by detecting early warning signs using AI."
-background: /assets/theme/images/doctor_patient_without_faces.jpg
+title: VITAL SIGNS ESTIMATION 
+description: "Development and systematic validation of a system for contactless, camera-based measurement of heart rate (variability)."
+background: /assets/theme/images/IMG_9993.jpg
 #image: /assets/theme/images/sample_video.gif
 categories: [Project]
-tags: [ORAKEL]
+tags: [VITAL SIGNS]
                                  
 permalink: /project/
 ---
@@ -15,15 +15,18 @@ permalink: /project/
 
 
 ## Motivation and Goals
-Recent advances in AI and machine learning offer promising opportunities to improve early detection of worsening depressive symptoms. Preliminary studies suggest that AI can analyze subtle cues from speech patterns, facial expressions and gestures to detect depressed mood and suicidal crises. For example, depressed people may exhibit changes in the prosody of speech, reduced facial expressions and spontaneous gestures. There is also evidence that vital signs such as heart rate variability and sleep patterns are indicative of a person's mental state. In our project, we will directly compare how well the assessment of the patient's state of illness or their risk of relapse succeeds: (a) through the medical consultation (as has been common up to now), (b) through standardized ratings or interviews (as is currently common in psychiatric research), (c) by predicting relapses in depressive disorders through the detection of early warning signs by means of AI (new approach of our project), (d) by combining the aforementioned approaches.
+The aim of this research project is the optical measurement of vital signs (heart rate, respiratory rate & heart rate variability) from video images using photoplethysmography (PPG). Vital signs provide important information for the medical analysis of the cardiovascular system, as well as for the diagnosis and prevention of diseases and is an essential marker for the evaluation of the activity of the autonomic nervous system. PPG is an optical, non-invasive technology that uses light to record the volumetric variations of blood circulation in the skin. In recent years, this method has also been realized contactlessly at a distance through the use of cameras and has already been successfully used to determine heart rate from video data. The PPG signal can be measured both in the visible spectrum using RGB cameras and in the near-infrared range.
 
-This will allow us to see not only whether AI is in principle capable of detecting early warning signs of depression in a clinical context, but also whether this works better than conventional methods. Camera-based monitoring and AI-driven analyses could then provide real-time feedback for healthcare providers and thus enable earlier interventions. The detection of early warning signs of a relapse using artificial intelligence therefore offers considerable potential for improving the care of patients with depressive disorders. The further development of such technologies can also be a helpful addition, particularly due to the limited time resources available for outpatient care as a result of the shortage of doctors. The addition of AI to analyze speech, facial expressions, gestures and vital signs in the assessment of the course of the disease could help to better manage the outpatient treatment of depressive disorders and sustainably improve the quality of life of those affected.
+![image](/orakel/assets/theme/images/pipeline_vital_signs_estimation.png)
+
+In order to measure heart rate variability, it is necessary to determine the heartbeats (peaks) in the PPG signal with temporal precision. One challenge here is that even the smallest movements and facial expressions of the test subjects can lead to artifacts in the PPG signal, which are mainly due to the changing reflection behavior of the observed skin areas. Thus, the high measurement accuracy of heart rate in the state of the art can only be achieved through strong temporal filtering. However, this means that precise temporal localization of the heartbeats is no longer possible, although this is essential for determining heart rate variability.
+This is where this research project comes in, in which these artifacts in the PPG signal are systematically recorded and then effectively compensated for in order to avoid strong filtering of the PPG signal after extraction from the video data. To date, almost all methods for measuring the PPG signal have been based on color averaging of (partial) areas of the skin on the face. Motion compensation is not possible with these methods, as position information is lost. Deep neural networks are suitable for training models that are invariant to movement. Using methods for 3D head pose estimation and action unit recognition (facial muscle movements), a system is to be trained to obtain motion-invariant PPG signals from the video data. For this purpose, information about the detected skin regions is generated in each image and used for motion compensation. The data obtained from this network will be further processed with a deep neural network optimized for temporal signal processing in order to determine the heartbeat peaks in the PPG signal with temporal precision. In addition, new CNN-based segmentation methods will be used to achieve more accurate detection of the skin in the video images and thus reduce sources of interference. The approaches described are to be developed both for the RGB videos prevalent in the state of the art and for combinations of different multispectral wavelength ranges of visible and near-infrared light. The measurement in the near-infrared range offers advantages for future application-related use, in particular the possibility of irritation-free lighting for the human eye, with the help of which the influence of external lighting fluctuations can be minimized, thus enabling measurement in the dark, which has advantages for monitoring patients in hospitals, for example.
 
  <!-- gif can be used instead mp4, converter for example  https://ezgif.com/  -->
-![image](/orakel/assets/theme/images/patient_doctor_recording.png)
+![image](/orakel/assets/theme/images/pipeline_FaSeNet_HR-LSTM.png)
 
 ## Funding
 
-This project is supported by the European Regional Development Fund (ERDF) as part of project ORAKEL (grant no. ZS/2023/12/182322), funded by the European Union and the state of Saxony-Anhalt.
+This project is supported by the German Research Foundation (DFG) under grants AL 638/14-1 (project no. 502438143).
 
-![image](/orakel/assets/theme/images/SachsenAnhalt_EU_logo.png)
+![image](/orakel/assets/theme/images/dfg_logo_englisch_blau_en.gif)
