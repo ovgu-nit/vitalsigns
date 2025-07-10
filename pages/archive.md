@@ -1,8 +1,8 @@
 ---
 layout: archive
 title: News
-description: News & blog posts
-background: /assets/theme/images/header-img.jpg
+#description: News & blog posts
+background: /assets/theme/images/doctor_patient_without_faces.jpg
 permalink: /blog/
 ---
 

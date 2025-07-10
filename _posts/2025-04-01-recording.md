@@ -2,7 +2,7 @@
 title: Patient Data Recording Start
 #description: In September 2024 we started recording the new pain data with focus on patients in the immediate recovery phase after an abdominal surgery.
 background: /assets/theme/images/clinic_img.jpg
-image: /assets/theme/images/layout_recording.png
+image: /assets/theme/images/layout_recording_cropped.png
 categories: [News]
 tags: [News]
 
