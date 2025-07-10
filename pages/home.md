@@ -5,7 +5,7 @@ title: ORAKEL
 subtitle: ERDF research project
 
 description: "Better prediction of relapses in depressive disorders by detecting early warning signs using AI."
-background: /assets/theme/images/clinic_img_cropped.jpg
+background: /assets/theme/images/clinic_img.jpg
 permalink: /
 ---
 # Deception Detection In virtual sales meetings

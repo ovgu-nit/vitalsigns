@@ -1,6 +1,6 @@
 - name: Neuro-Information Technology Group, Otto-von-Guericke-University Magdeburg
   #role: Neuro-Information Technology | AI based Deception Detection # Will appear next to name
-  image: /orakel/assets/theme/images/logo_FEIT.png  # Can be external link
+  image: /assets/theme/images/logo_FEIT.png  # Can be external link
   description: > # Can be Markdown
     The Neuro-Information Technology (NIT) group is located technically at the intersection of research fields multisensory information gathering and processing, human-machine interaction (HMI) and information perception. This involves at first the use of modern methods of information technology and pattern recognition for signal, image and video-based industrial and medical applications.
   #orcid: 0000-0000-0000-0000
@@ -24,7 +24,7 @@
 - name: 'Department of Psychiatry and Psychotherapy, Medical Faculty University Hospital Magdeburg'
   #role:  Experimental economy | Data Aquisition
   #
-  image:  /orakel/assets/theme/images/OVGU+MED_logo_web_blau.jpg  #  https://www.cd.ovgu.de/Fakult%C3%A4ten/Wirtschaftswissenschaft.html
+  image:  /assets/theme/images/OVGU+MED_logo_web_blau.jpg  #  https://www.cd.ovgu.de/Fakult%C3%A4ten/Wirtschaftswissenschaft.html
   description: >    
     The Department of Psychiatry and Psychotherapy, University Hospital Magdeburg, offers innovative diagnostics and therapy for a wide range of mental illnesses. We consistently adhere to current international standards and the latest scientific findings to provide top-tier medical care for our patients. Our spectrum of treatments includes psychopharmacological and psychotherapeutic approaches as well as various brain stimulation methods, particularly for difficult-to-treat conditions. To establish comprehensive care, our integrative approach combines inpatient, day clinic, and outpatient treatment.
 
