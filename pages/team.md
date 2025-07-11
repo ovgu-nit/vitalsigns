@@ -2,7 +2,7 @@
 layout: team
 title: Team
 #description: Who we are
-background: /assets/theme/images/doctor_patient_without_faces.jpg
+background: /assets/theme/images/IMG_9993.jpg
 permalink: /team/
 ---
 
