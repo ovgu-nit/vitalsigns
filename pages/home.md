@@ -5,7 +5,7 @@ title: VITAL SIGNS ESTIMATION
 subtitle: DFG research project
 
 description: "Development and systematic validation of a system for contactless, camera-based measurement of heart rate (variability)."
-background: /assets/theme/images/IMG_9989.jpg
+background: /assets/theme/images/IMG_9993.jpg
 permalink: /
 ---
 # Deception Detection In virtual sales meetings
