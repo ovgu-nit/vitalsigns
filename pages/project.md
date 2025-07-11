@@ -4,7 +4,7 @@ description: "Development and systematic validation of a system for contactless,
 background: /assets/theme/images/IMG_9993.jpg
 #image: /assets/theme/images/sample_video.gif
 categories: [Project]
-tags: [VITAL SIGNS]
+tags: ["VITAL SIGNS"]
                                  
 permalink: /project/
 ---
